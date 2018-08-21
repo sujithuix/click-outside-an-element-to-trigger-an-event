@@ -1,0 +1,5 @@
+$(document).click(function(e) {
+if (!$(event.target).closest(".className").length) {
+ //event goes here
+}
+});
